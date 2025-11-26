@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>British Kitchen - A Culinary Journey Through Traditional English Cuisine</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+  <style>
+    @keyframes floatUp {
+        0% {
+            transform: translateY(0) rotate(0deg);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(-100vh) rotate(360deg);
+            opacity: 0;
+        }
+    }
+    
+    @keyframes rainbow {
+        0% { filter: hue-rotate(0deg); }
+        100% { filter: hue-rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <nav class="c429">
+    <div class="container"><a href="#" class="logo">British Kitchen</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+        <li><a href="#timeline">History</a></li>
+        <li><a href="#dishes">Dishes</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+  </nav><!-- Hero Section -->
+  <section id="home" class="hero c661">
+    <div class="hero-content">
+      <h1>British Kitchen</h1>
+      <p>Embark on an authentic culinary journey through the heart of England's traditional cuisine</p>
+      <div class="hero-stats">
+        <div class="stat-item counted"><span class="stat-number">4</span><span class="stat-label">Iconic Dishes</span>
+        </div>
+        <div class="stat-item counted"><span class="stat-number">5</span><span class="stat-label">Passionate
+            Chefs</span>
+        </div>
+        <div class="stat-item counted"><span class="stat-number">100+</span><span class="stat-label">Years of
+            Tradition</span></div>
+      </div>
+      <div class="cta-group"><a href="#dishes" class="cta-button">Explore Our Dishes</a><a href="#quiz"
+          class="cta-button cta-secondary">Test Your Knowledge</a></div>
+    </div>
+    <div class="scroll-indicator"></div>
+  </section><!-- Interactive Quiz Section -->
+  <section id="quiz" class="quiz-section">
+    <div class="container">
+      <h2 class="section-title fade-in visible c944">How British Are Your Taste Buds?</h2>
+      <div class="quiz-container fade-in visible c965">
+        <div class="quiz-question">Which traditional British dish is often called "the ultimate comfort food"?</div>
+        <div class="quiz-options">
+          <div class="quiz-option">Fish and Chips</div>
+          <div class="quiz-option">Shepherd's Pie</div>
+          <div class="quiz-option">Full English Breakfast</div>
+          <div class="quiz-option">Apple Pie</div>
+        </div>
+        <div id="quiz-feedback" class="c1071"></div>
+      </div>
+    </div>
+  </section><!-- Timeline Section -->
+  <section id="timeline" class="timeline-section">
+    <div class="container">
+      <h2 class="section-title fade-in visible c1126">A Journey Through British Culinary History</h2>
+      <div class="timeline">
+        <div class="timeline-item fade-in visible c1148">
+          <div class="timeline-year">1300s</div>
+          <div class="timeline-content">
+            <h3>Medieval Origins</h3>
+            <p>Early forms of pies and puddings emerged in medieval England, using local ingredients and preserving
+              techniques.</p>
+          </div>
+        </div>
+        <div class="timeline-item fade-in visible c1223">
+          <div class="timeline-year">1800s</div>
+          <div class="timeline-content">
+            <h3>The Industrial Revolution</h3>
+            <p>Full English breakfast evolved to fuel workers during the Industrial Revolution, becoming a hearty
+              morning
+              tradition.</p>
+          </div>
+        </div>
+        <div class="timeline-item fade-in visible c1295">
+          <div class="timeline-year">1860s</div>
+          <div class="timeline-content">
+            <h3>Fish and Chips Rise</h3>
+            <p>The first fish and chip shops opened, bringing affordable, quick meals to working-class communities
+              across
+              Britain.</p>
+          </div>
+        </div>
+        <div class="timeline-item fade-in visible c1367">
+          <div class="timeline-year">1900s</div>
+          <div class="timeline-content">
+            <h3>Modern British Cuisine</h3>
+            <p>Traditional dishes evolved while maintaining their cultural significance in British households and pubs
+              nationwide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- Progress Section -->
+  <section class="progress-section">
+    <div class="container">
+      <h2 class="section-title fade-in visible c1493">Our Cooking Progress</h2>
+      <div class="progress-container">
+        <div class="progress-item fade-in visible animated c1515">
+          <div class="progress-header"><span>🍳 Full English Breakfast</span><span>100%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill c1570">Complete!</div>
+          </div>
+        </div>
+        <div class="progress-item fade-in visible animated c1605">
+          <div class="progress-header"><span>🐟 Fish and Chips</span><span>75%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill c1656">In Progress</div>
+          </div>
+        </div>
+        <div class="progress-item fade-in visible animated c1690">
+          <div class="progress-header"><span>🥧 Shepherd's Pie</span><span>50%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill c1741">Planning</div>
+          </div>
+        </div>
+        <div class="progress-item fade-in animated visible c1775">
+          <div class="progress-header"><span>🍎 Apple Pie</span><span>25%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill c1826">Research</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- Enhanced Dishes Section -->
+  <section id="dishes" class="dishes">
+    <div class="container">
+      <h2 class="section-title fade-in visible c1914">Our Traditional Dishes</h2>
+      <div class="dishes-grid"><!-- Dish 1: Full English Breakfast -->
+        <div class="dish-card fade-in visible c1945">
+          <div class="dish-image">🍳</div>
+          <div class="dish-content"><span class="dish-number">Dish 01</span>
+            <h3>Full English Breakfast</h3>
+            <p>The ultimate morning feast that has powered Britain for centuries. A hearty combination of eggs, bacon,
+              sausages, beans, tomatoes, mushrooms, and toast.</p>
+            <div class="dish-facts">
+              <div class="fact-item">📍 Origin: Victorian England, 1800s</div>
+              <div class="fact-item">⏱️ Prep time: 30 minutes</div>
+              <div class="fact-item">🔥 Calories: 800-1200</div>
+            </div><a href="#" class="dish-link">View Full Recipe &amp; History</a>
+          </div>
+        </div><!-- Dish 2: Fish and Chips -->
+        <div class="dish-card fade-in visible c2134">
+          <div class="dish-image">🐟</div>
+          <div class="dish-content"><span class="dish-number">Dish 02</span>
+            <h3>Fish and Chips</h3>
+            <p>Britain's national dish and beloved takeaway. Crispy battered cod or haddock served with golden fried
+              chips, traditionally wrapped in newspaper.</p>
+            <div class="dish-facts">
+              <div class="fact-item">📍 Origin: London, 1860s</div>
+              <div class="fact-item">⏱️ Prep time: 45 minutes</div>
+              <div class="fact-item">🔥 Calories: 600-900</div>
+            </div><a href="#" class="dish-link">View Full Recipe &amp; History</a>
+          </div>
+        </div><!-- Dish 3: Shepherd's Pie -->
+        <div class="dish-card fade-in visible c2316">
+          <div class="dish-image">🥧</div>
+          <div class="dish-content"><span class="dish-number">Dish 03</span>
+            <h3>Shepherd's Pie</h3>
+            <p>A comforting classic of minced lamb in rich gravy topped with creamy mashed potatoes, baked until golden.
+              Perfect for cold British evenings.</p>
+            <div class="dish-facts">
+              <div class="fact-item">📍 Origin: Scotland, 1700s</div>
+              <div class="fact-item">⏱️ Prep time: 90 minutes</div>
+              <div class="fact-item">🔥 Calories: 500-700</div>
+            </div><a href="#" class="dish-link">View Full Recipe &amp; History</a>
+          </div>
+        </div><!-- Dish 4: Apple Pie -->
+        <div class="dish-card fade-in visible c2498">
+          <div class="dish-image">🍎</div>
+          <div class="dish-content"><span class="dish-number">Dish 04</span>
+            <h3>Apple Pie</h3>
+            <p>A timeless British dessert with sweet apples, cinnamon, and nutmeg encased in buttery pastry. Best served
+              warm with custard or ice cream.</p>
+            <div class="dish-facts">
+              <div class="fact-item">📍 Origin: England, 1381</div>
+              <div class="fact-item">⏱️ Prep time: 120 minutes</div>
+              <div class="fact-item">🔥 Calories: 300-500</div>
+            </div><a href="#" class="dish-link">View Full Recipe &amp; History</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- Team Section -->
+  <section id="team" class="team">
+    <div class="container">
+      <h2 class="section-title fade-in visible c2725">Meet Our Culinary Team</h2>
+      <div class="team-grid">
+        <div class="team-member fade-in visible c2747">
+          <div class="member-avatar">👨‍🍳</div>
+          <div class="member-name">Team Member 1</div>
+          <div class="member-role">Head Chef</div>
+          <div class="member-bio">Specializing in traditional breakfast recipes and historical food research.</div>
+        </div>
+        <div class="team-member fade-in visible c2833">
+          <div class="member-avatar">👩‍🍳</div>
+          <div class="member-name">Team Member 2</div>
+          <div class="member-role">Sous Chef</div>
+          <div class="member-bio">Expert in pie making and dessert techniques with a passion for British sweets.</div>
+        </div>
+        <div class="team-member fade-in visible c2914">
+          <div class="member-avatar">📸</div>
+          <div class="member-name">Team Member 3</div>
+          <div class="member-role">Food Photographer</div>
+          <div class="member-bio">Capturing the beauty of traditional British cuisine through stunning photography.
+          </div>
+        </div>
+        <div class="team-member fade-in visible c2995">
+          <div class="member-avatar">📝</div>
+          <div class="member-name">Team Member 4</div>
+          <div class="member-role">Recipe Historian</div>
+          <div class="member-bio">Researching the fascinating origins and evolution of British culinary traditions.
+          </div>
+        </div>
+        <div class="team-member fade-in visible c3076">
+          <div class="member-avatar">🎨</div>
+          <div class="member-name">Team Member 5</div>
+          <div class="member-role">Web Designer</div>
+          <div class="member-bio">Creating our digital showcase and bringing our culinary journey online.</div>
+        </div>
+      </div>
+    </div>
+  </section><!-- Gallery Preview Section -->
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <h2 class="section-title fade-in visible c3215">Our Cooking Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item fade-in visible c3237">🍳</div>
+        <div class="gallery-item fade-in visible c3256">🥓</div>
+        <div class="gallery-item fade-in visible c3274">🐟</div>
+        <div class="gallery-item fade-in visible c3292">🍟</div>
+        <div class="gallery-item fade-in visible c3310">🥧</div>
+        <div class="gallery-item fade-in visible c3328">🍎</div>
+        <div class="gallery-item fade-in visible c3346">🍳</div>
+        <div class="gallery-item fade-in visible c3364">👨‍🍳</div>
+      </div>
+    </div>
+  </section><!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2024 British Kitchen - English Class Project</p>
+      <p>Exploring Traditional British Cuisine with Passion and Research</p>
+      <p>🇬🇧 A culinary journey through England's finest dishes</p>
+      <div class="social-links"><a href="#" class="social-link">📧</a><a href="#" class="social-link">📸</a><a href="#"
+          class="social-link">📱</a><a href="#" class="social-link">🌐</a></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
